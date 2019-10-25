@@ -1,3 +1,5 @@
+# This program converts wav files from stereo channel to mono channel
+
 import wave
 import contextlib
 import csv
