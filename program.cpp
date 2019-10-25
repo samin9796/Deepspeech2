@@ -1,3 +1,5 @@
+// Create multiple text files from the "Label Track.txt" file. That means splitting "Label Track.txt" file according to labels
+
 #include<bits/stdc++.h>
 #include <sstream>
 #include <string>
