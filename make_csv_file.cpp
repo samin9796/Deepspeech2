@@ -1,3 +1,5 @@
+// Generate a csv file with two columns. First column is the wav file path, second one is text file path
+
 #include<bits/stdc++.h>
 #include<stdio.h>
 #include<cstdlib>
@@ -84,7 +86,6 @@ int main()
     {
         string str = 'A' + convertStr(i);
         listFile(str);
-        //modifyLabelText(str);
     }
     cout << cnt << endl;
 }
