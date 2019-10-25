@@ -1,3 +1,5 @@
+// Remove timestamp from the "Label Track.txt" file.
+
 #include<bits/stdc++.h>
 #include<stdio.h>
 #include<cstdlib>
@@ -29,7 +31,6 @@ string convertStr(int number)
 
 void writeAllLines(string filepath, string originalPath)
 {
-    //cout << filepath << " ... " << originalPath << endl;
     string line;
     ifstream myfile (filepath);
     ofstream outfile;
