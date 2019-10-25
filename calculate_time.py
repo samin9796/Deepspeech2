@@ -1,3 +1,5 @@
+# Given a CSV file, this code will compute total seconds of data and number of files.
+
 import wave
 import contextlib
 import csv
