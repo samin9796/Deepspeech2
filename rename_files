@@ -1,0 +1,8 @@
+# Replace spaces with underscore in the directory name
+find -name "* *" -type d | rename 's/ /_/g'
+
+# Replace spaces with underscore in the filenames within a directory
+find -name "* *" -type f | rename 's/ /_/g'
+
+NOTE: "rename" module must be installed first. For that use the following command.
+sudo apt install rename
